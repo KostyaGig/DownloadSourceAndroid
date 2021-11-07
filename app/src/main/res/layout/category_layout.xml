@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--  Your text  -->
+
+
+<!--  Your categories  -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginBottom="50dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+
+        <FrameLayout
+            android:id="@+id/reading_category_container"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/reading_category_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_book"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/family_category_container"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/family_category_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_home"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/music_category_container"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/music_category_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_music"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/shopping_category_container"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/shopping_category_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_shopping"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/food_category_container"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/food_category_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_food"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+
+        <FrameLayout
+            android:id="@+id/hrt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/hrts"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_book"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/g45"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/svf"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_home"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/gest"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/sbf"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_music"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/wq"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/sv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_shopping"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/e"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="#DCCABB">
+
+            <ImageView
+                android:id="@+id/bf"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_food"
+                android:layout_gravity="center"
+                android:tint="@android:color/black"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+<!--  Your block for add new note  -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
